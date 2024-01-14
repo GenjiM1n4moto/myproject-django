@@ -21,4 +21,5 @@ from django.contrib.auth import views as auth
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('user.urls')),
+    path('weather/', include('weather.urls')),
 ]
